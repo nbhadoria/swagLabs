@@ -1,0 +1,28 @@
+# .gitignore based on https://github.com/github/gitignore/blob/main/Node.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# VSCode's settings
+!.vscode/extensions.json
+.vscode/*
+
+# Playwright
+playwright-report/
+test-results/
+
+# macOS-specific
+.DS_Store
+
+# Local environment
+.env
