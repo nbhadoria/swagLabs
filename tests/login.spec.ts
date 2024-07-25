@@ -3,7 +3,7 @@ import { LoginPage } from "@swagLabs/pageObjects/loginPage";
 import { INVENTORY_URL } from "@swagLabs/utils/consts";
 import { LOCKED_USER, PASSWORD, USERNAME } from "@swagLabs/utils/data";
 
-test.beforeEach(async ({ page }) => {
+test.beforeEach(async ({}) => {
   console.log(`Running ${test.info().title}`);
 });
 
